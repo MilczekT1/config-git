@@ -1,13 +1,6 @@
 server:
   port: 8080
 spring:
-  application:
-    name: some_name
-  profiles:
-    active: default
-  cloud:
-    config:
-      uri: http://localhost:8080
   thymeleaf:
     mode: HTML
   jpa:
