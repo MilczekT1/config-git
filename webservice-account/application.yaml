@@ -1,19 +1,18 @@
-server:
-  port: 8080
 spring:
   profiles: default
-  thymeleaf:
-    mode: HTML
   jpa:
     hibernate:
       dll-auto: update
       dialect.storage_engine: innodb
     properties:
       hibernate.dialect: org.hibernate.dialect.MySQL5Dialect
+#  datasource:
+#    url: {cipher}PASTE_HERE_ENCRYPTED_VALUE
+#    driver-class-name: com.mysql.jdbc.Driver
+#    username: {cipher}PASTE_HERE_ENCRYPTED_VALUE
+#    password: {cipher}PASTE_HERE_ENCRYPTED_VALUE
+#    continue-on-error: false
 ---
 spring:
   profiles: test
   profiles.include: default
-  cloud:
-    config:
-      enabled: false
