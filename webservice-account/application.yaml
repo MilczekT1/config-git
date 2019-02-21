@@ -13,7 +13,7 @@ spring:
 ---
 spring:
   profiles: test
-    include: default
+  profiles.include: default
   cloud:
     config:
       enabled: false
