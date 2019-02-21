@@ -1,6 +1,7 @@
 server:
-  port: 8081
+  port: 8080
 spring:
+  profiles: default
   thymeleaf:
     mode: HTML
   jpa:
@@ -9,3 +10,11 @@ spring:
       dialect.storage_engine: innodb
     properties:
       hibernate.dialect: org.hibernate.dialect.MySQL5Dialect
+---
+spring:
+  profiles: test
+    include:
+      - default
+  cloud:
+    config:
+      enabled: false
