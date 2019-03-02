@@ -1,1 +1,26 @@
-//shitty
+spring:
+  thymeleaf.mode: HTML
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: '{cipher}9923989b199b06180762c10cd60e715f105dd57e5261402d585f3a1da751d4d2b25cf1000044ae9da9d5fa86b97da05f'
+    password: '{cipher}24f5443b86730a3a827a6bb8a2836277db293a9f72daf44f42eeef89eb77758168398308bc2725d82dcbfc7b3d35498a'
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+management:
+  endpoint:
+    mappings:
+      enabled: true
+budget:
+  mail:
+    replyTo: '{cipher}5cdd1f83a626ae32423d66139c6b3d3511fba068dde0c724c38d982133cf71890519b7d3ddb4064dde843bbfc4c2e2d3'
+---
+spring:
+  profiles: test
+  profiles.include: default
+  test.mockmvc.print: none
