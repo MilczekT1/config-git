@@ -16,3 +16,7 @@ spring:
 spring:
   profiles: test
   profiles.include: default
+---
+spring:
+  profiles: operations
+  profiles.include: default
