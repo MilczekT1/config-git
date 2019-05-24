@@ -1,3 +1,11 @@
+budget:
+  chassis:
+    http-logging:
+      enabled: true
+      includeQueryString: true
+      includePayload: true
+      includeHeaders: true
+      maxPayloadLength: 10000
 spring:
   thymeleaf:
     mode: HTML
