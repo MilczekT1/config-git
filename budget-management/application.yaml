@@ -1,4 +1,3 @@
-logging.level.org.springframework.web.filter.CommonsRequestLoggingFilter: DEBUG
 budget:
   chassis:
     http-logging:
@@ -26,6 +25,7 @@ spring:
       allowOverride: true
       overrideNone: true
       overrideSystemProperties: false
+logging.level.org.springframework.web.filter.CommonsRequestLoggingFilter: DEBUG
 ---
 spring:
   profiles: test
