@@ -25,6 +25,7 @@ spring:
     config:
       allowOverride: true
       overrideNone: true
+      overrideSystemProperties: true
 ---
 spring:
   profiles: test
