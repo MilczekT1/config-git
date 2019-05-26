@@ -1,3 +1,4 @@
+logging.level.org.springframework.web.filter.CommonsRequestLoggingFilter: DEBUG
 budget:
   chassis:
     http-logging:
