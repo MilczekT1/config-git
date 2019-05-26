@@ -21,6 +21,10 @@ spring:
     username: '{cipher}38c657b97c6d07c4e54782c8d4dac576487aa0d5e85434bbb5a1a461de73e5bd'
     password: '{cipher}84d8c2ac20ed27bcc1628b488fdec939cc9063538e44b5f96a5dca972fa83fe7'
     continue-on-error: false
+  cloud:
+    config:
+      allowOverride: true
+      overrideNone: true
 ---
 spring:
   profiles: test
