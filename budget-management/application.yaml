@@ -1,3 +1,5 @@
+logging.level.org.springframework.web.filter.CommonsRequestLoggingFilter: DEBUG
+logging.level.org.springframework.cloud.config.client.ConfigServicePropertySourceLocator: Debug
 budget:
   chassis:
     http-logging:
@@ -25,7 +27,6 @@ spring:
       allowOverride: true
       overrideNone: true
       overrideSystemProperties: false
-logging.level.org.springframework.web.filter.CommonsRequestLoggingFilter: DEBUG
 ---
 spring:
   profiles: test
