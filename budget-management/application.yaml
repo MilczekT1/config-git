@@ -1,5 +1,5 @@
 logging.level.org.springframework.web.filter.CommonsRequestLoggingFilter: DEBUG
-logging.level.org.springframework.cloud.config.client.ConfigServicePropertySourceLocator: Debug
+logging.level.org.springframework.cloud.config.client.ConfigServicePropertySourceLocator: DEBUG
 budget:
   chassis:
     http-logging:
