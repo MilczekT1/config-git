@@ -13,6 +13,7 @@ spring:
     mode: HTML
   profiles: default
   jpa:
+    open-in-view: false
     hibernate:
       dll-auto: update
       dialect.storage_engine: innodb
