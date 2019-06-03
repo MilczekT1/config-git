@@ -1,5 +1,5 @@
 logging.level.org.springframework.web.filter.CommonsRequestLoggingFilter: DEBUG
-logging.level.org.springframework.cloud.config.client.ConfigServicePropertySourceLocator: DEBUG
+logging.level.org.springframework.cloud.config.client.ConfigServicePropertySourceLocator: INFO
 budget:
   chassis:
     http-logging:
@@ -33,6 +33,9 @@ management:
   endpoint:
     mappings:
       enabled: true
+health:
+  config:
+    time-to-live: 3600000
 ---
 spring:
   profiles: test
