@@ -10,6 +10,9 @@ budget:
       maxPayloadLength: 10000
 spring:
   profiles: default
+  spring:
+    thymeleaf:
+      mode: HTML
   jpa:
     open-in-view: false
     hibernate:
