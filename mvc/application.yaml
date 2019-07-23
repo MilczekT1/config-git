@@ -7,7 +7,7 @@ budget:
       includePayload: true
       includeHeaders: true
       maxPayloadLength: 10000
-      urlPattern: "/*"
+      urlPattern: "/**"
 spring:
   profiles: default
   spring:
