@@ -29,7 +29,7 @@ spring:
       overrideSystemProperties: false
   sleuth:
     sampler:
-      percentage: 1.0
+      probability: 1
   zipkin:
     base-url: http://zipkin:9411/
     enabled: true
