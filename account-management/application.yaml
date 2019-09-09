@@ -34,6 +34,8 @@ spring:
     base-url: http://zipkin:9411/
     enabled: true
     discoveryClientEnabled: false
+    sender:
+      type: web
 health:
   config:
     time-to-live: 3600000
