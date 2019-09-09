@@ -33,8 +33,7 @@ spring:
   zipkin:
     base-url: http://zipkin:9411/
     enabled: true
-    discovery-client-enabled: false
-    locator.discovery.enabled: false
+    discoveryClientEnabled: false
     sender:
       type: web
 health:
