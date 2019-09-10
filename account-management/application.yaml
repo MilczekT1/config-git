@@ -31,7 +31,7 @@ spring:
     sampler:
       probability: 1
   zipkin:
-    base-url: http://zipkin:9411/
+    base-url: http://konradboniecki.com.pl/zipkin
     enabled: true
     discoveryClientEnabled: false
 health:
@@ -50,3 +50,4 @@ spring:
 spring:
   profiles: operations
   profiles.include: default
+#base-url: http://zipkin:9411/
