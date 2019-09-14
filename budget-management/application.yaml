@@ -36,6 +36,7 @@ spring:
     discoveryClientEnabled: false
 health:
   config:
+    enabled: false
     time-to-live: 3600000
 ---
 spring:
