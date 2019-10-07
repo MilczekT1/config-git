@@ -7,6 +7,8 @@ budget:
       includePayload: true
       includeHeaders: true
       maxPayloadLength: 10000
+  budget:
+    baseUrl: "http://konradboniecki.com.pl"
 spring:
   profiles: default
   jpa:
