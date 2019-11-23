@@ -6,7 +6,7 @@ budget:
       enabled: true
       includeQueryString: true
       includePayload: true
-      includeHeaders: true
+      includeHeaders: false
       maxPayloadLength: 10000
       urlPattern: "/home/*"
   baseUrl: "http://konradboniecki.com.pl"
