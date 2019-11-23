@@ -8,7 +8,7 @@ budget:
       includePayload: true
       includeHeaders: true
       maxPayloadLength: 10000
-      urlPattern: "/*"
+      urlPattern: "/home/*"
   baseUrl: "http://konradboniecki.com.pl"
 spring:
   autoconfigure.exclude:
