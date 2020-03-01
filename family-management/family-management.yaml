@@ -17,7 +17,7 @@ spring:
     properties:
       hibernate.dialect: org.hibernate.dialect.MySQL5Dialect
   datasource:
-    url: '{cipher}b3b3c8caeca88f16288f6ecf5f5079691e3419fd9eab3307ada090175df49213c57fc53e5c77a8f4a0ae231fae6b208f470b8bb5a0bbbc1c638d165269027d63336db5112cdf43723677322b0f777c3a9f286b025bb2a1fbdc6c8af0dd4b09d2aeba5b1e79e39a2a6b7c8ebf35c50c88'
+    url: '{cipher}15becd7491ba1050a5d973340bd29f2aa679a63221fc86db89ef9bce63f6c3f824c56802ec546b60e251ef24f352c8cf212aa60256902e358780064ef19fee1dbcb06fbd3336a6b010cf2bc8eb8ad7eee1efee185180900cf8d4cc07e6ea258109ed823f32242a85b950d82a3571a65d'
     driver-class-name: com.mysql.jdbc.Driver
     username: '{cipher}38c657b97c6d07c4e54782c8d4dac576487aa0d5e85434bbb5a1a461de73e5bd'
     password: '{cipher}84d8c2ac20ed27bcc1628b488fdec939cc9063538e44b5f96a5dca972fa83fe7'
