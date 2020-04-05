@@ -7,7 +7,7 @@ budget:
       includePayload: true
       includeHeaders: false
       maxPayloadLength: 10000
-  baseUrl: "http://konradboniecki.com.pl"
+  baseUrl: "https://konradboniecki.com.pl"
   mail:
     replyTo: '{cipher}5cdd1f83a626ae32423d66139c6b3d3511fba068dde0c724c38d982133cf71890519b7d3ddb4064dde843bbfc4c2e2d3'
 spring:
