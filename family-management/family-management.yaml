@@ -9,7 +9,7 @@ budget:
       maxPayloadLength: 10000
 server:
   ssl:
-    enabled: true
+    enabled: false
     key-alias: budget-ssc
     key-store: budget-ssc.p12
     key-store-type: PKCS12

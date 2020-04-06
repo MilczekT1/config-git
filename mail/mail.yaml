@@ -12,7 +12,7 @@ budget:
     replyTo: '{cipher}5cdd1f83a626ae32423d66139c6b3d3511fba068dde0c724c38d982133cf71890519b7d3ddb4064dde843bbfc4c2e2d3'
 server:
   ssl:
-    enabled: true
+    enabled: false
     key-alias: budget-ssc
     key-store: budget-ssc.p12
     key-store-type: PKCS12
