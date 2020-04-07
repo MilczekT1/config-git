@@ -7,7 +7,9 @@ budget:
       includePayload: true
       includeHeaders: false
       maxPayloadLength: 10000
-  baseUrl: "https://konradboniecki.com.pl"
+  baseUrl:
+    gateway: "https://konradboniecki.com.pl"
+    familyManagement: "http://family:8080"
 server:
   ssl:
     enabled: false
