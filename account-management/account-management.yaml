@@ -9,7 +9,7 @@ budget:
       maxPayloadLength: 10000
   baseUrl:
     gateway: "https://konradboniecki.com.pl"
-    familyManagement: "http://family:8080"
+    familyManagement: "http://family-management"
 spring:
   profiles: default
   jpa:
