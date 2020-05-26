@@ -13,7 +13,7 @@ budget:
     budgetManagement: "http://budget-management"
     accountManagement: "http://account-management"
     familyManagement: "http://family-management"
-    mail: "http://mail:8080"
+    mail: "http://mail"
 spring:
   autoconfigure.exclude:
     - org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration
