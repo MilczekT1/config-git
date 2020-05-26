@@ -10,9 +10,9 @@ budget:
       urlPattern: "/home/*"
   baseUrl:
     gateway: "https://konradboniecki.com.pl"
-    budgetManagement: "http://budget:8080"
-    accountManagement: "http://account:8080"
-    familyManagement: "http://family:8080"
+    budgetManagement: "http://budget-management"
+    accountManagement: "http://account-management"
+    familyManagement: "http://family-management"
     mail: "http://mail:8080"
 spring:
   autoconfigure.exclude:
