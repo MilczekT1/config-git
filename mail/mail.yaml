@@ -1,4 +1,11 @@
 logging.level.org.springframework.web.filter.CommonsRequestLoggingFilter: DEBUG
+management:
+  endpoint:
+    metrics.enabled: true
+    prometheus.enabled: true
+    mappings.enabled: true
+  endpoints.web.exposure.include: "*"
+  metrics.export.prometheus.enabled: true
 budget:
   chassis:
     http-logging:
@@ -45,10 +52,6 @@ health:
   config:
     enabled: false
     time-to-live: 3600000
-management:
-  endpoint:
-    mappings:
-      enabled: true
 ---
 spring:
   profiles: test
