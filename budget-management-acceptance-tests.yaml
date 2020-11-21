@@ -23,11 +23,8 @@ spring:
     sampler:
       probability: 1
   zipkin:
-    base-url: https://konradboniecki.com.pl/zipkin
-    enabled: true
+    enabled: false
     discoveryClientEnabled: false
-    sender:
-      type: web
 health:
   config:
     enabled: false
