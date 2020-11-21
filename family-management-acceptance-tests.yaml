@@ -1,0 +1,35 @@
+tests.acceptance.baseUrl: https://konradboniecki.com.pl
+logging.level.org.springframework.web.filter.CommonsRequestLoggingFilter: DEBUG
+budget:
+  chassis:
+    http-logging:
+      enabled: true
+      includeQueryString: true
+      includePayload: true
+      includeHeaders: false
+      maxPayloadLength: 10000
+spring:
+  profiles: default
+  cloud:
+    config:
+      allowOverride: true
+      overrideNone: true
+      overrideSystemProperties: false
+  security:
+    user:
+      name: '{cipher}99bcb43e165747f915eeffc7931ca55af9081f1314d5687bd5d994c99c76173c'
+      password: '{cipher}38130b35a4ab1fb31c45494c8e07ecdabc66aa5b9549f9233bc29bd1bcd35bfa'
+  sleuth:
+    sampler:
+      probability: 1
+  zipkin:
+    enabled: false
+    discoveryClientEnabled: false
+health:
+  config:
+    enabled: false
+    time-to-live: 3600000
+---
+spring:
+  profiles: test
+  profiles.include: default
