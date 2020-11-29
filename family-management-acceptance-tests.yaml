@@ -9,7 +9,7 @@ budget:
       includeHeaders: false
       maxPayloadLength: 10000
 spring:
-  profiles: default
+  profiles: acceptance-tests
   cloud:
     config:
       allowOverride: true
@@ -29,7 +29,3 @@ health:
   config:
     enabled: false
     time-to-live: 3600000
----
-spring:
-  profiles: test
-  profiles.include: default
