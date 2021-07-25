@@ -41,9 +41,3 @@ health:
   config:
     enabled: false
     time-to-live: 3600000
----
-spring:
-  config:
-    activate:
-      on-profile: test
-  profiles.include: default
