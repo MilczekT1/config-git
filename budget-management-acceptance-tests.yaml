@@ -9,7 +9,9 @@ budget:
       includeHeaders: false
       maxPayloadLength: 10000
 spring:
-  profiles: acceptance-tests
+  config:
+    activate:
+      on-profile: acceptance-tests
   cloud:
     config:
       allowOverride: true
