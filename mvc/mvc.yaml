@@ -26,7 +26,9 @@ spring:
     - org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
     - org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration
     - org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration
-  profiles: default
+  config:
+    activate:
+      on-profile: default
   spring:
     thymeleaf:
       mode: HTML
@@ -50,7 +52,3 @@ health:
   config:
     enabled: false
     time-to-live: 3600000
----
-spring:
-  profiles: test
-  profiles.include: default
