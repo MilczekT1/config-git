@@ -20,7 +20,7 @@ spring:
   data:
     mongodb:
       database: budget-management
-      uri: '{cipher}924e6c0049ea4b324961fa373e2d829fe8d4f378c731fc3cc82c783a3ab84102b6c27721c714ade9c7c53cc2e4bf37f70d93984193369bfcbb5099dac92cd5d6129db7a09dc46c7076d0f2c46bc02f9e5b0ebd6cef619ac70cb9e9964bcfc8bfb3be5649442f4ddd9b46998e24660ab0'
+      uri: '{cipher}2ef5ba8ffb9a6f08b1cf3a38b92816cb6959c7d2a3776729b73e8a23bc2f440893172048fc8bfe8856d706bce06e6a87944905bad9203dc3537e1854fd079096ec9362a6326005e73b6f4dad6d4090eb9a2bc4fcf29ce11dbeb9ec58aa4167e74e2ee6d2c9ccc7cb4ac3a6c0469ca890'
   cloud:
     config:
       allowOverride: true
