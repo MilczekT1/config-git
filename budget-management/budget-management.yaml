@@ -1,4 +1,7 @@
 logging.level.org.springframework.web.filter.CommonsRequestLoggingFilter: DEBUG
+server:
+  http2:
+    enabled: true
 management:
   endpoint:
     metrics.enabled: true
