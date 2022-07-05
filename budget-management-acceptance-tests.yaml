@@ -27,6 +27,7 @@ spring:
   zipkin:
     enabled: false
     discoveryClientEnabled: false
+  mongodb.embedded.version: 4.4.1
 health:
   config:
     enabled: false
